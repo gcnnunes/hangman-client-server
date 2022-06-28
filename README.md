@@ -1,31 +1,12 @@
-# Jogo de Forca em Redes - MC833
+# Hangman Game
 
-## Começando o Jogo
-Abra um terminal na pasta onde estão os arquivos fonte e execute o comando make.
-Após rodar o make, execute no terminal o arquivo servidor passando por parametro a porta na qual ele ficará ouvindo novas conexões. 
+## Playing
+Open a terminal in the folder where are the fonts and run the command "make".
+Next, run the file "servidor" in terminal with a parameter to specify the port it will be listening to connections. 
 ```
 ./servidor 8000
 ```
-Abra mais um terminal e execute o arquivo executável do cliente passando por parâmetro o id e a porta do servidor onde ele irá se conectar
+Open another terminal and run the file "cliente" with parameters to specify the server id and port that it will connect.
 ```
 ./cliente 127.0.0.1 8000
 ```
-
-### Prerequisitos
-N/A
-
-## Feito com
-* Sublime
-* Atom
-* Linux
-
-
-## Versionamento
-* Github
-
-## Autores
-* Caio Teixeira 
-* Gustavo Nunes
-
-## Licença
-Projeto desenvolvido em 30/11/2018 para a disciplina MC833 - Laboratório de Redes da Universidade de Campinas (UNICAMP)
